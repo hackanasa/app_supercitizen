@@ -1,0 +1,42 @@
+#map_canvas {
+  width: 90%;
+  height: 80%;
+  border: 1px solid red;
+}
+ 
+ 
+#map {
+  width: 100%;
+  height: 91vh;
+}
+ 
+.map-wrapper {
+  position: relative;
+ 
+  #map_center {
+    position: absolute;
+    z-index: 99;
+    height: 40px;
+    width: 40px;
+    top: 50%;
+    left: 50%;
+    margin-left: -21px;
+    margin-top: -41px;
+  }
+}
+
+img[src^="http://arthurhou.pps.eosdis.nasa.gov/"]{
+  opacity: .5;
+}
+
+#floating-panel {
+  position: absolute;
+  top: 300px;
+  left: 75%;
+  z-index: 5;
+  background-color: white;
+  padding: 5px;
+  text-align: center;
+  //width: 32px;
+  //height: 200px;
+}
